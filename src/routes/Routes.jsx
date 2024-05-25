@@ -5,6 +5,7 @@ import LoggedPlans from '../pages/Plans/LoggedPlans/LoggedPlans'
 import Plans from '../pages/Plans/Plans/Plans'
 import Home from '../pages/Home/Home'
 import Campaigns from '../pages/Campaigns/Campaigns'
+import Workouts from '../pages/Workouts/Workouts'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -19,6 +20,7 @@ const AppRoutes = () => {
                 <Route path="/plans" element={<Plans/>}></Route>
                 <Route path="/home" element={<Home/>}></Route>
                 <Route path="/campaigns" element={<Campaigns/>}></Route>
+                <Route path="/workouts" element={<Workouts/>}></Route>
             </Routes>
         </Router>
     )

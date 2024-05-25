@@ -26,7 +26,7 @@ function Header() {
 
       <s.BottomContainer>
 
-      <Link to="/workout" style={{ textDecoration: 'none' }}>
+      <Link to="/workouts" style={{ textDecoration: 'none' }}>
           <s.ItemContainer>
             <img src={WorkoutIcon}/> <s.ItemText>Treinos</s.ItemText>
           </s.ItemContainer>

@@ -3,7 +3,7 @@ import { Colors } from "../../theme/DesignTokens";
 
 const Header = styled.div`
   display: flex;
-  height: 15%;
+  height: 16%;
   width: 100%;
   flex-direction: column;
 `;
