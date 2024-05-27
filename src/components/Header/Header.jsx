@@ -38,13 +38,13 @@ function Header() {
         </s.ItemContainer>
       </Link>
 
-      <Link to="/points-exchange" style={{ textDecoration: 'none' }}>
+      <Link to="/coming-soon" style={{ textDecoration: 'none' }}>
         <s.ItemContainer>
           <img src={PointsExchange}/> <s.ItemText>Troque seus Pontos</s.ItemText>
         </s.ItemContainer>
       </Link>
 
-      <Link to="/appointments" style={{ textDecoration: 'none' }}>
+      <Link to="/coming-soon" style={{ textDecoration: 'none' }}>
         <s.ItemContainer>
           <img src={Appointment}/> <s.ItemText>Consultas</s.ItemText>
         </s.ItemContainer>

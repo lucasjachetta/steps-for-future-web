@@ -6,6 +6,8 @@ import Plans from '../pages/Plans/Plans/Plans'
 import Home from '../pages/Home/Home'
 import Campaigns from '../pages/Campaigns/Campaigns'
 import Workouts from '../pages/Workouts/Workouts'
+import Profile from '../pages/Profile/Profile'
+import ComingSoon from '../pages/ComingSoon/ComingSoon'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -21,6 +23,8 @@ const AppRoutes = () => {
                 <Route path="/home" element={<Home/>}></Route>
                 <Route path="/campaigns" element={<Campaigns/>}></Route>
                 <Route path="/workouts" element={<Workouts/>}></Route>
+                <Route path="/profile" element={<Profile/>}></Route>
+                <Route path="/coming-soon" element={<ComingSoon/>}></Route>
             </Routes>
         </Router>
     )
